@@ -26,7 +26,7 @@ function Capitulos({ arc }) {
                         <Card bg="dark" className="my-4">
                             <Card.Header>
                                 <a href={`/capitulo/${arc}/${chapter.toLowerCase()}`}>
-                                    <Card.Img src={`../../public/static/img/icons/${data[chapter].id.toLowerCase()}.png`} className="chapter-img">
+                                    <Card.Img src={`/static/img/icons/${data[chapter].id.toLowerCase()}.png`} className="chapter-img">
                                     </Card.Img>
                                 </a>
                             </Card.Header>
