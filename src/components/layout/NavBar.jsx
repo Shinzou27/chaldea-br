@@ -19,17 +19,17 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto fs-5">
             <Nav.Link className='px-3' href="/">Início</Nav.Link>
-            <Nav.Link className='px-3' href="/andamento">Andamento</Nav.Link>
+            <Nav.Link className='px-3' href="/chaldea-br/andamento">Andamento</Nav.Link>
             <Nav.Link href="https://shinzou27.github.io/glossarioChaldeaBR/" target='_blank'>Glossário</Nav.Link>
             <NavDropdown menuVariant='dark' className='text-bg-dark px-3' title="Capítulos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/capitulo/1">Observer on Timeless Temple</NavDropdown.Item>
-              <NavDropdown.Item href="/capitulo/eor">Epic of Remnant</NavDropdown.Item>
-              <NavDropdown.Item href="/capitulo/2">Cosmos in the Lostbelt</NavDropdown.Item>
-              <NavDropdown.Item href="/capitulo/ordealcall">Ordeal Call</NavDropdown.Item>
+              <NavDropdown.Item href="/chaldea-br/capitulo/1">Observer on Timeless Temple</NavDropdown.Item>
+              <NavDropdown.Item href="/chaldea-br/capitulo/eor">Epic of Remnant</NavDropdown.Item>
+              <NavDropdown.Item href="/chaldea-br/capitulo/2">Cosmos in the Lostbelt</NavDropdown.Item>
+              <NavDropdown.Item href="/chaldea-br/capitulo/ordealcall">Ordeal Call</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/capitulo/eventos">Eventos</NavDropdown.Item>
+              <NavDropdown.Item href="/chaldea-br/capitulo/eventos">Eventos</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='px-3' href="/tutorial">Como Instalar</Nav.Link>
+            <Nav.Link className='px-3' href="/chaldea-br/tutorial">Como Instalar</Nav.Link>
           </Nav>
           <Nav className="ms-auto fs-5">
             <Nav.Link href="https://www.facebook.com/ChaldeaBR" target='_blank'><BsFacebook className='fs-2 mx-1'/></Nav.Link>
