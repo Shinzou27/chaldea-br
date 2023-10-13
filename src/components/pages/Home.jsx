@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/esm/Container";
 import './Home.css'
 import Image from "react-bootstrap/esm/Image";
-import nobbu from '../../assets/nobbu.png'
 import Col from 'react-bootstrap/Col'
 import ListGroup from 'react-bootstrap/ListGroup'
 
