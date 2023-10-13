@@ -2,6 +2,7 @@
   "name": "chaldea-br",
   "private": true,
   "version": "0.0.0",
+  "homepage": "chaldea-br/",
   "type": "module",
   "scripts": {
     "dev": "vite",
