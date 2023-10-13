@@ -14,15 +14,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
       <Route element={<App />}>
-        <Route path='/chaldea-br/' element={<Home />} />
-        <Route path='/chaldea-br/andamento' element={<Andamento />} />
-        <Route path='/chaldea-br/capitulo/1' element={<Capitulos arc={"1"} />} />
-        <Route path='/chaldea-br/capitulo/eor' element={<Capitulos arc={"1.5"} />} />
-        <Route path='/chaldea-br/capitulo/2' element={<Capitulos arc={"2"} />} />
-        <Route path='/chaldea-br/capitulo/ordealcall' element={<Capitulos arc={"2.5"} />} />
-        <Route path='/chaldea-br/capitulo/eventos' element={<Capitulos arc={"eventos"} />} />
-        <Route path='/chaldea-br/capitulo/:arc/:title' element={<Capitulo />} />
-        <Route path='/chaldea-br/tutorial' element={<Tutorial />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/andamento' element={<Andamento />} />
+        <Route path='/capitulo/1' element={<Capitulos arc={"1"} />} />
+        <Route path='/capitulo/eor' element={<Capitulos arc={"1.5"} />} />
+        <Route path='/capitulo/2' element={<Capitulos arc={"2"} />} />
+        <Route path='/capitulo/ordealcall' element={<Capitulos arc={"2.5"} />} />
+        <Route path='/capitulo/eventos' element={<Capitulos arc={"eventos"} />} />
+        <Route path='/capitulo/:arc/:title' element={<Capitulo />} />
+        <Route path='/tutorial' element={<Tutorial />} />
       </Route>
     </Routes>
   </BrowserRouter>
