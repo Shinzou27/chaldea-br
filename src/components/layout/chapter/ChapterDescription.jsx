@@ -1,5 +1,5 @@
-import frameTop from '../../../assets/chapter/frameTop.png'
-import frameBottom from '../../../assets/chapter/frameBottom.png'
+import frameTop from '../../../../public/static/img/chapter/frameTop.png'
+import frameBottom from '../../../../public/static/img/chapter/frameBottom.png'
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/esm/Container';
 
