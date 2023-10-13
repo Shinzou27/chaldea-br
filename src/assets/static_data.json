@@ -330,7 +330,7 @@
             "desc": "Salem é a última Singularidade dos \"Epic of Remnant\", e se passa na vila de Salém, nos EUA. Conhecida por ser uma região repleta de ocultismo e história de bruxas, dia após dia, cada vez mais acontecimentos misteriosos são presenciados pela Chaldea.",
             "char_name": [
                 "Abigail Williams",
-                "Rainha de Sabá",
+                "Caster de Midrash",
                 "Circe"
             ],
             "chapter_icon": "",
@@ -365,7 +365,7 @@
             "next_chapter": "Anastasia",
             "yt_link": "",
             "timestamps": [],
-            "trailer": ""
+            "trailer": "https://www.youtube.com/embed/JWgcQnltyP8"
         },
         "anastasia": {
             "arc": "2",
@@ -409,7 +409,7 @@
             "next_chapter": "SIN",
             "yt_link": "",
             "timestamps": [],
-            "trailer": ""
+            "trailer": "https://www.youtube.com/embed/CjjB_WkRUV0"
         },
         "sin": {
             "arc": "2",
@@ -431,7 +431,7 @@
             "next_chapter": "Yugakshetra",
             "yt_link": "",
             "timestamps": [],
-            "trailer": ""
+            "trailer": "https://www.youtube.com/embed/rqa1yCXlSoA"
         },
         "yugakshetra": {
             "arc": "2",
@@ -519,15 +519,15 @@
             "next_chapter": "Avalon le Fae",
             "yt_link": "",
             "timestamps": [],
-            "trailer": ""
+            "trailer": "https://www.youtube.com/embed/zk_wbHuHYCo"
         },
         "avalon-le-fae": {
             "arc": "2",
             "title": "Avalon le Fae",
             "id": "avalon-le-fae",
-            "desc": "Um cenário utópico, extremamente repleto de energia mágica: este é o domínio das fadas da Britânia, Avalon le Fae. Num Lostbelt cuja Árvore do Vazio já não mais dará frutos, uma ameaça planetária surge e torna a correção desta versão da história uma tarefa de extrema prioridade.",
+            "desc": "Um cenário utópico, extremamente repleto de energia mágica: este é o domínio das fadas da Bretanha, Avalon le Fae. Num Lostbelt cuja Árvore do Vazio já não mais dará frutos, uma ameaça planetária surge e torna a correção desta versão da história uma tarefa de extrema prioridade.",
             "char_name": [
-                "Artoria (Caster)",
+                "Artoria Caster",
                 "Morgan",
                 "Oberon"
             ],
