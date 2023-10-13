@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .container-table {
+        padding: 1rem !important;
+    }
+    .launch {
+        display: none;
+    }
+    .state {
+        display: none;
+    }
+}

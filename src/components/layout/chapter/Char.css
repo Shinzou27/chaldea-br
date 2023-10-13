@@ -1,0 +1,54 @@
+#char {
+    height: 100%;
+    position: relative;
+}
+
+@media (min-width: 1000px) {
+    #inner-div {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+    }
+
+    .reveal {
+        transform: translateY(-40%);
+    }
+
+    .reveal.active {
+        transform: translateY(-50%);
+    }
+
+    .reveal {
+        position: relative;
+        opacity: 0;
+        transition: 1s all ease;
+    }
+
+    .reveal.active {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    .frames {
+        max-width: 200px;
+    }
+
+    .img {
+        width: 24vh !important;
+    }
+}
+
+#name {
+    font-size: 2em;
+    position: relative;
+    top: -30px;
+    color: rgb(255, 255, 255);
+    padding: 0.1em;
+    text-shadow: 4px 4px 4px black;
+}
+
+.img {
+    width: 34vh;
+    filter: drop-shadow(0 0 0.25rem rgb(255, 255, 255));
+}

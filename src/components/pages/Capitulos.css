@@ -1,0 +1,11 @@
+.chapter-img {
+    margin: auto;
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 0.25rem rgb(255, 255, 255));
+}
+.chapter-img:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
+}

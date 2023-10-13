@@ -1,0 +1,91 @@
+body {
+  background-color: #111111;
+  background-image: url('assets/bg.png');
+  background-repeat: repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.chapter-title img {
+  position: relative;
+  filter: drop-shadow(0 0 0.25rem rgb(255, 255, 255));
+}
+
+.chapter-title h1 {
+  position: relative;
+  top: -30px;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 4px black;
+}
+
+.app-link {
+  text-decoration: none;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-home {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .container-home {
+    display: block;
+  }
+  .container-desc img {
+    width: 300px;
+  }
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
