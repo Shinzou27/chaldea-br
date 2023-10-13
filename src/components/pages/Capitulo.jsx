@@ -34,7 +34,7 @@ function Capitulo() {
     return (
         <Container className="mt-5">
             <Container className="chapter-title pt-4">
-                <Image width={128} src={`../../public/static/img/icons/${chapter.id}.png`} />
+                <Image width={128} src={`/static/img/icons/${chapter.id}.png`} />
                 <h1>{chapter.title.toLocaleUpperCase()}</h1>
             </Container>
             <Row className="pb-5">
