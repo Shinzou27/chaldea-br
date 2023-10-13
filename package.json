@@ -2,7 +2,7 @@
   "name": "chaldea-br",
   "private": true,
   "version": "0.0.0",
-  "homepage": "chaldea-br/",
+  "homepage": "https://shinzou27.github.io/chaldea-br/",
   "type": "module",
   "scripts": {
     "dev": "vite",
