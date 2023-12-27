@@ -31,7 +31,7 @@ function Capitulos({ arc }) {
                                 </a>
                             </Card.Header>
                             <Card.Body>
-                                    <h3>{data[chapter].title}</h3>
+                                    <h3 className="chapters-chapter-title">{data[chapter].title}</h3>
                             </Card.Body>
                         </Card>
                     </Col>

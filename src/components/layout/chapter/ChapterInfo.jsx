@@ -85,7 +85,7 @@ function ChapterInfo({ chapter }) {
                         <h4>Capítulo Anterior</h4>
                     </Col>
                     <Col>
-                        {prevChap != "-" ? <Link to={`/capitulo/${prevArc}/${prevChap.toLowerCase()}`} style={{textDecoration: 'none'}}><h4 className="text-decoration-none">{chapter.prev_chapter}</h4></Link> : <h4>{chapter.prev_chapter}</h4>}
+                        {prevChap != "-" ? <Link reloadDocument to={`/capitulo/${prevArc}/${chapter.prev_chapter_id}`} style={{textDecoration: 'none'}}><h4 className="text-decoration-none">{chapter.prev_chapter}</h4></Link> : <h4>{chapter.prev_chapter}</h4>}
                     </Col>
                 </Row>
                 <Row>
@@ -93,7 +93,7 @@ function ChapterInfo({ chapter }) {
                         <h4>Capítulo Seguinte</h4>
                     </Col>
                     <Col>
-                        {nextChap != "-" ? <Link to={`/capitulo/${nextArc}/${nextChap.toLowerCase()}`} style={{textDecoration: 'none'}}><h4>{chapter.next_chapter}</h4></Link> : <h4>{chapter.next_chapter}</h4>}
+                        {nextChap != "-" ? <Link reloadDocument to={`/capitulo/${nextArc}/${chapter.next_chapter_id}`} style={{textDecoration: 'none'}}><h4>{chapter.next_chapter}</h4></Link> : <h4>{chapter.next_chapter}</h4>}
                     </Col>
                 </Row>
         </Container>
