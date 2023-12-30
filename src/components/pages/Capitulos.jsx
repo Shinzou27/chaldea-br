@@ -5,6 +5,7 @@ import Image from "react-bootstrap/esm/Image";
 import Card from 'react-bootstrap/Card'
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
+import Button from 'react-bootstrap/esm/Button';
 import { data } from '../../assets/static_data.json'
 
 
@@ -33,6 +34,7 @@ function Capitulos({ arc }) {
                             <Card.Body>
                                     <h3 className="chapters-chapter-title">{data[chapter].title}</h3>
                             </Card.Body>
+                                    <Button href={`/capitulo/${arc}/${chapter.toLowerCase()}`} variant="success" >Ir</Button>
                         </Card>
                     </Col>
                 )

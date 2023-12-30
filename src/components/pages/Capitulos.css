@@ -13,6 +13,5 @@
     .chapters-chapter-title {
         font-size: calc(1.05rem + .35vw);
         height: 52px;
-        line-height: 52px;
     }
 }
