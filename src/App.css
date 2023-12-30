@@ -2,7 +2,7 @@ body {
   background-color: #111111;
   background-image: url('assets/bg.png');
   background-repeat: repeat;
-  background-size: cover;
+  background-size: contain;
   color: #ffffff;
 }
 

@@ -9,6 +9,7 @@ import Andamento from './components/pages/Andamento'
 import Capitulos from './components/pages/Capitulos'
 import Capitulo from './components/pages/Capitulo'
 import Tutorial from './components/pages/Tutorial'
+import Roadmap from './components/pages/Roadmap.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/capitulo/eventos' element={<Capitulos arc={"eventos"} />} />
         <Route path='/capitulo/:arc/:title' element={<Capitulo />} />
         <Route path='/tutorial' element={<Tutorial />} />
+        <Route path='/roadmap' element={<Roadmap />} />
       </Route>
     </Routes>
   </BrowserRouter>

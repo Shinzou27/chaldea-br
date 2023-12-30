@@ -213,7 +213,7 @@
         "seraph": {
             "title": "SE.RA.PH.",
             "id": "seraph",
-            "desc": "",
+            "desc": "Numa bela manhã de primavera, Chaldea recebe um pedido de socorro esdrúxulo; uma ligação vinda da base da Chaldea na Fossa das Marianas...do ano de 2030! O pessoal de Chaldea é então colocado numa Guerra do Santo Graal que já está sendo finalizada, no Paraíso Cibernético Abissal, SE.RA.PH!",
             "char_name": [
                 "BB",
                 "Meltryllis",
@@ -612,7 +612,7 @@
         "ooku": {
             "title": "Tokugawa Ooku",
             "id": "ooku",
-            "desc": "",
+            "desc": "Enquanto preparavam-se para o ataque ao Lostbelt grego, a Novum Chaldea acaba se deparando com sinais estranhos vindo do Japão Imperial, durante o xogunato Tokugawa. Chegando na origem da Singularidade, um labirinto inexplorado, vasto e misterioso dentro do Castelo Edo se encontra diante de nós. Nas profundezas dele, certamente a resposta para esta irregularidade nos aguarda com um poder imensurável...",
             "char_name": [
                 "Kama",
                 "Yagyu Tajima-no-Kami Munenori",
@@ -631,7 +631,7 @@
             "yt_link": ""
         },
         "imaginary-scramble": {
-            "title": "Viagem Imaginária",
+            "title": "Desordem Imaginária",
             "id": "imaginary-scramble",
             "desc": "",
             "char_name": [
