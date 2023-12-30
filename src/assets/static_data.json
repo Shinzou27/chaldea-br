@@ -678,7 +678,7 @@
             "sq": "62",
             "prev_chapter": "Traum",
             "prev_chapter_id": "traum",
-            "next_chapter": "Memória do Soberano",
+            "next_chapter": "Memórias do Soberano",
             "next_chapter_id": "sovereigns-memoir",
             "yt_link": "",
             "timestamps": [
@@ -687,7 +687,7 @@
             "trailer": ""
         },
         "sovereigns-memoir": {
-            "title": "Memória do Soberano",
+            "title": "Memórias do Soberano",
             "id": "sovereigns-memoir",
             "desc": "Após concluírem a missão em Mictlán, a Chaldea escapa com segurança do Lostbelt e volta para a Terra, esperando vê-la restaurada. Porém, desta vez é ela quem está rejeitando a Chaldea. Será necessário mais do que a correção dos sete Lostbelts para que recuperemos nosso lar.",
             "char_name": [
@@ -726,7 +726,7 @@
             "launch_br": "TBA",
             "sections": "17",
             "sq": "37",
-            "prev_chapter": "Memória do Soberano",
+            "prev_chapter": "Memórias do Soberano",
             "prev_chapter_id": "sovereigns-memoir",
             "next_chapter": "-",
             "next_chapter_id": "-",
