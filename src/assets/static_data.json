@@ -3,7 +3,7 @@
         "fuyuki": {
             "title": "Fuyuki",
             "id": "fuyuki",
-            "desc": "Fuyuki é a primeira Singularidade de Fate/Grand Order, onde toda a história da Chaldea começa a ser contada. Fujimaru Ritsuka, Mash Kyrielight e Olga Marie Animusphere desmaiam e acordam num cenário em chamas, sem comunicação com o mundo exterior e precisam voltar à Chaldea para corrigir a Incineração da Humanidade.",
+            "desc": "[\"Fuyuki é a primeira Singularidade de Fate/Grand Order\", \"onde toda a história da Chaldea começa a ser contada. Fujimaru Ritsuka\", \"Mash Kyrielight e Olga Marie Animusphere desmaiam e acordam num cenário em chamas\"]",
             "char_name": [
                 "Mash Kyrielight",
                 "Cú Chulainn",
@@ -19,7 +19,29 @@
             "prev_chapter_id": "-",
             "next_chapter": "Orleans",
             "next_chapter_id": "orleans",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                "00:00:00",
+                "00:03:42",
+                "00:06:22",
+                "00:19:42",
+                "00:22:01",
+                "00:29:49",
+                "00:49:53",
+                "01:01:40",
+                "01:10:29",
+                "01:23:23",
+                "01:59:13",
+                "02:11:14",
+                "02:24:47",
+                "02:38:31",
+                "02:51:23",
+                "03:03:59",
+                "03:15:20",
+                "03:38:14",
+                "03:45:41"
+            ],
+            "trailer": "https://www.youtube.com/embed/7VDrGlNnP3Y"
         },
         "orleans": {
             "title": "Orleans",
@@ -40,7 +62,11 @@
             "prev_chapter_id": "fuyuki",
             "next_chapter": "Septem",
             "next_chapter_id": "septem",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "septem": {
             "title": "Septem",
@@ -61,7 +87,11 @@
             "prev_chapter_id": "orleans",
             "next_chapter": "Okeanos",
             "next_chapter_id": "okeanos",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "okeanos": {
             "title": "Okeanos",
@@ -82,7 +112,11 @@
             "prev_chapter_id": "septem",
             "next_chapter": "London",
             "next_chapter_id": "london",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/CHa_5Sgt3uM"
         },
         "london": {
             "title": "London",
@@ -103,7 +137,11 @@
             "prev_chapter_id": "okeanos",
             "next_chapter": "E Pluribus Unum",
             "next_chapter_id": "america",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/2Q8FP0nBU9M"
         },
         "america": {
             "title": "E Pluribus Unum",
@@ -124,7 +162,11 @@
             "prev_chapter_id": "london",
             "next_chapter": "Camelot",
             "next_chapter_id": "camelot",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/3X_iakTZTFg"
         },
         "camelot": {
             "title": "Camelot",
@@ -145,7 +187,11 @@
             "prev_chapter_id": "america",
             "next_chapter": "Babylonia",
             "next_chapter_id": "babylonia",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/m5tqAJBgrQ4"
         },
         "babylonia": {
             "title": "Babylonia",
@@ -166,7 +212,11 @@
             "prev_chapter_id": "camelot",
             "next_chapter": "Solomon",
             "next_chapter_id": "solomon",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/Hrr2LB4dgkg"
         },
         "solomon": {
             "title": "Solomon",
@@ -187,7 +237,11 @@
             "prev_chapter_id": "babylonia",
             "next_chapter": "Shinjuku",
             "next_chapter_id": "shinjuku",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "shinjuku": {
             "title": "Shinjuku",
@@ -208,7 +262,29 @@
             "prev_chapter_id": "solomon",
             "next_chapter": "SE.RA.PH.",
             "next_chapter_id": "seraph",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                "00:00:00",
+                "00:03:42",
+                "00:06:22",
+                "00:19:42",
+                "00:22:01",
+                "00:29:49",
+                "00:49:53",
+                "01:01:40",
+                "01:10:29",
+                "01:23:23",
+                "01:59:13",
+                "02:11:14",
+                "02:24:47",
+                "02:38:31",
+                "02:51:23",
+                "03:03:59",
+                "03:15:20",
+                "03:38:14",
+                "03:45:41"
+            ],
+            "trailer": "https://www.youtube.com/embed/W4n3aSfKbSk"
         },
         "seraph": {
             "title": "SE.RA.PH.",
@@ -229,7 +305,11 @@
             "prev_chapter_id": "shinjuku",
             "next_chapter": "Agartha",
             "next_chapter_id": "agartha",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "agartha": {
             "title": "Agartha",
@@ -250,7 +330,11 @@
             "prev_chapter_id": "seraph",
             "next_chapter": "Shimousa",
             "next_chapter_id": "shimousa",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/86i1oI3SLZw"
         },
         "shimousa": {
             "title": "Shimousa",
@@ -271,7 +355,11 @@
             "prev_chapter_id": "agartha",
             "next_chapter": "Salem",
             "next_chapter_id": "salem",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/Ajg3vihJfmM"
         },
         "salem": {
             "title": "Salem",
@@ -292,7 +380,11 @@
             "prev_chapter_id": "shimousa",
             "next_chapter": "Prólogo dos Lostbelts",
             "next_chapter_id": "lostbelt-prologue",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "lostbelt-prologue": {
             "title": "Prólogo dos Lostbelts",
@@ -313,7 +405,11 @@
             "prev_chapter_id": "salem",
             "next_chapter": "Anastasia",
             "next_chapter_id": "anastasia",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/JWgcQnltyP8"
         },
         "anastasia": {
             "title": "Anastasia",
@@ -334,7 +430,11 @@
             "prev_chapter_id": "lostbelt-prologue",
             "next_chapter": "Götterdämmerung",
             "next_chapter_id": "gotterdammerung",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "gotterdammerung": {
             "title": "Götterdämmerung",
@@ -355,7 +455,11 @@
             "prev_chapter_id": "anastasia",
             "next_chapter": "S I N",
             "next_chapter_id": "sin",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/CjjB_WkRUV0"
         },
         "sin": {
             "title": "S I N",
@@ -376,7 +480,11 @@
             "prev_chapter_id": "gotterdammerung",
             "next_chapter": "Yuga Kshetra",
             "next_chapter_id": "yugakshetra",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/rqa1yCXlSoA"
         },
         "yugakshetra": {
             "title": "Yuga Kshetra",
@@ -397,7 +505,11 @@
             "prev_chapter_id": "sin",
             "next_chapter": "Atlantis",
             "next_chapter_id": "atlantis",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/7M53Iuu4SDc"
         },
         "atlantis": {
             "title": "Atlantis",
@@ -418,7 +530,11 @@
             "prev_chapter_id": "yugakshetra",
             "next_chapter": "Olympus",
             "next_chapter_id": "olympus",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/49N5-V-I4UM"
         },
         "olympus": {
             "title": "Olympus",
@@ -439,7 +555,11 @@
             "prev_chapter_id": "atlantis",
             "next_chapter": "Heian-Kyo",
             "next_chapter_id": "heian-kyo",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/GPbpTwV2cLY"
         },
         "heian-kyo": {
             "title": "Heian-Kyo",
@@ -460,7 +580,11 @@
             "prev_chapter_id": "olympus",
             "next_chapter": "Avalon le Fae",
             "next_chapter_id": "avalon-le-fae",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/zk_wbHuHYCo"
         },
         "avalon-le-fae": {
             "title": "Avalon le Fae",
@@ -481,7 +605,11 @@
             "prev_chapter_id": "heian-kyo",
             "next_chapter": "Santuário de Tunguska",
             "next_chapter_id": "tunguska",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "tunguska": {
             "title": "Santuário de Tunguska",
@@ -502,7 +630,11 @@
             "prev_chapter_id": "avalon-le-fae",
             "next_chapter": "Traum",
             "next_chapter_id": "traum",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "traum": {
             "title": "Traum",
@@ -523,7 +655,11 @@
             "prev_chapter_id": "tunguska",
             "next_chapter": "Nahui Mictlán",
             "next_chapter_id": "nahui-mictlan",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "nahui-mictlan": {
             "title": "Nahui Mictlán",
@@ -544,7 +680,11 @@
             "prev_chapter_id": "traum",
             "next_chapter": "Memória do Soberano",
             "next_chapter_id": "sovereigns-memoir",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "sovereigns-memoir": {
             "title": "Memória do Soberano",
@@ -565,7 +705,11 @@
             "prev_chapter_id": "nahui-mictlan",
             "next_chapter": "Paper Moon",
             "next_chapter_id": "paper-moon",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "paper-moon": {
             "title": "Paper Moon",
@@ -586,7 +730,11 @@
             "prev_chapter_id": "sovereigns-memoir",
             "next_chapter": "-",
             "next_chapter_id": "-",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "all-the-statesmen": {
             "title": "Todos os Estadistas!",
@@ -607,7 +755,11 @@
             "prev_chapter_id": "-",
             "next_chapter": "-",
             "next_chapter_id": "-",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "ooku": {
             "title": "Tokugawa Ooku",
@@ -628,7 +780,11 @@
             "prev_chapter_id": "sin",
             "next_chapter": "Yuga Kshetra",
             "next_chapter_id": "yugakshetra",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": "https://www.youtube.com/embed/Ki1m2mRwxTQ"
         },
         "imaginary-scramble": {
             "title": "Desordem Imaginária",
@@ -649,7 +805,11 @@
             "prev_chapter_id": "yugakshetra",
             "next_chapter": "Atlantis",
             "next_chapter_id": "atlantis",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         },
         "merry-christmas-in-the-underworld": {
             "title": "Feliz Natal no Submundo",
@@ -670,7 +830,11 @@
             "prev_chapter_id": "-",
             "next_chapter": "-",
             "next_chapter_id": "-",
-            "yt_link": ""
+            "yt_link": "",
+            "timestamps": [
+                ""
+            ],
+            "trailer": ""
         }
     }
 }
