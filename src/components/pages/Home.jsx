@@ -3,7 +3,6 @@ import './Home.css'
 import Image from "react-bootstrap/esm/Image";
 import Col from 'react-bootstrap/Col'
 import ListGroup from 'react-bootstrap/ListGroup'
-import traum_logo from '../../assets/traum_logo.png'
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
