@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {BsFacebook, BsTwitter, BsDiscord } from 'react-icons/bs'
+import {BsFacebook, BsTwitter, BsDiscord, BsYoutube } from 'react-icons/bs'
 
 import logo from '../../assets/logo.png';
 
@@ -36,6 +36,7 @@ function NavBar() {
             <Nav.Link href="https://www.facebook.com/ChaldeaBR" target='_blank'><BsFacebook className='fs-2 mx-1'/></Nav.Link>
             <Nav.Link href="https://twitter.com/fate_works" target='_blank'><BsTwitter className='fs-2 mx-1'/></Nav.Link>
             <Nav.Link href="https://discord.gg/PqjHunU9PX" target='_blank'><BsDiscord className='fs-2 mx-1'/></Nav.Link>
+            <Nav.Link href="https://www.youtube.com/@projetochaldeabr" target='_blank'><BsYoutube className='fs-2 mx-1'/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
