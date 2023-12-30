@@ -3,7 +3,7 @@
         "fuyuki": {
             "title": "Fuyuki",
             "id": "fuyuki",
-            "desc": "Fuyuki é a primeira Singularidade de Fate/Grand Order, onde toda a história da Chaldea começa a ser contada. Fujimaru Ritsuka, Mash Kyrielight e Olga Marie Animusphere, desmaiam e acordam num cenário em chamas, sem comunicação com o mundo exterior e precisam voltar à Chaldea para corrigir a Incineração da Humanidade.",
+            "desc": "Fuyuki é a primeira Singularidade de Fate/Grand Order, onde toda a história da Chaldea começa a ser contada. Fujimaru Ritsuka, Mash Kyrielight e Olga Marie Animusphere desmaiam e acordam num cenário em chamas, sem comunicação com o mundo exterior e precisam voltar à Chaldea para corrigir a Incineração da Humanidade.",
             "char_name": [
                 "Mash Kyrielight",
                 "Cú Chulainn",
@@ -213,7 +213,7 @@
         "seraph": {
             "title": "SE.RA.PH.",
             "id": "seraph",
-            "desc": "Numa bela manhã de primavera, Chaldea recebe um pedido de socorro esdrúxulo; uma ligação vinda da base da Chaldea na Fossa das Marianas...do ano de 2030! O pessoal de Chaldea é então colocado numa Guerra do Santo Graal que já está sendo finalizada, no Paraíso Cibernético Abissal, SE.RA.PH!",
+            "desc": "Numa bela manhã de primavera, a Chaldea recebe um pedido de socorro esdrúxulo; uma ligação vinda da base da Chaldea na Fossa das Marianas...do ano de 2030! O pessoal da Chaldea é então colocado numa Guerra do Santo Graal que já está sendo finalizada, no Paraíso Cibernético Abissal, SE.RA.PH!",
             "char_name": [
                 "BB",
                 "Meltryllis",
@@ -591,7 +591,7 @@
         "all-the-statesmen": {
             "title": "Todos os Estadistas!",
             "id": "all-the-statesmen",
-            "desc": "",
+            "desc": "Numa série de eventos cômicos, a Chaldea se depara com mais uma Singularidade menor para corrigir. Lá, se deparam com uma gigante solitária dos contos de expansão territorial norte-americanos, Paul Bunyan. Como estaria ela ligada a essa Singularidade? Por que tem tanta coisa norte-americana nesse evento? Será que ele é muito longo?",
             "char_name": [
                 "Paul Bunyan",
                 "Altera",
@@ -633,7 +633,7 @@
         "imaginary-scramble": {
             "title": "Desordem Imaginária",
             "id": "imaginary-scramble",
-            "desc": "",
+            "desc": "Durante um mergulho-teste após derrotarem o quarto Lostbelt, o Mestre e alguns Servos se deparam com um Servo à deriva no Mar do Vazio: Van Gogh...uma Foreigner. Enquanto isso, o pessoal na Chaldea percebe algo desconcertante: eles estão vivendo num sonho desde o início do mergulho.",
             "char_name": [
                 "Nemo",
                 "Van Gogh",
@@ -654,7 +654,7 @@
         "merry-christmas-in-the-underworld": {
             "title": "Feliz Natal no Submundo",
             "id": "merry-christmas-in-the-underworld",
-            "desc": "",
+            "desc": "Quando quase todos na Chaldea são acometidos por uma febre mortal terrível, cabe à Altera (recém-transformada em Papai Noel) investigar a origem dessa doença: os vestígios do submundo babilônico da sétima Singularidade. Com 12 horas restantes até que o pior aconteça, será que a Chaldea sobreviverá para ver mais uma ceia natalina?",
             "char_name": [
                 "Altera (Santa)",
                 "Ereshkigal",
