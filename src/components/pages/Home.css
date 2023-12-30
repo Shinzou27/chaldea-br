@@ -8,8 +8,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 100%;
-    height: 100%;
+    max-width: 100vw;
+    height: 100vh;
 }
 .about-us {
     align-self: center;
@@ -19,7 +19,7 @@
     color: rgb(255, 255, 255);
 }
 
-.about, .future {
+.left, .future {
     background-color: rgba(0,0,0,.8);
     border-radius: 3vh;
     display: flex;
