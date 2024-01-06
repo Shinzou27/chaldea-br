@@ -28,7 +28,7 @@ function EventModal({ event, handleClose, show }) {
         hasResources: !((event.golden_fou == undefined || event.golden_fou == '') && (event.mana_prism == undefined || event.mana_prism == '') && (event.rare_prism == undefined || event.rare_prism == '') && (event.pure_prism == undefined || event.pure_prism == '') && (event.evocation == undefined || event.evocation == '') && (event.qp == undefined || event.qp == '') && (event.golden_apple == undefined || event.golden_apple == '') && (event.sq == undefined || event.sq == '') && (event.ticket == undefined || event.ticket == '') && (event.lore == undefined || event.lore == '') && (event.bond_grail == undefined || event.bond_grail == '') && (event.holy_grail == undefined || event.holy_grail == ''))
     }
     const welfareIcons = (img) => {
-        const images = img?.split(",");
+        const images = img?.split(",").filter((img) => img.includes("http"));
         console.log(images);
         return (
             <div className='svt-div'>
@@ -67,6 +67,7 @@ function EventModal({ event, handleClose, show }) {
                     <h2>{event.subtitle}</h2>
                     <Image src={event.img} fluid />
                     <h4 className='mt-2'>Início: {event.date}</h4>
+                    {event.event_type != '' && <h4 className='mt-2'>Evento de {event.event_type}</h4>}
                 </Container>
                 <hr />
                 <Container className='center-modal'>
@@ -83,6 +84,10 @@ function EventModal({ event, handleClose, show }) {
                         <Col className='checkboxes'>
                             <h4>Servo Grátis</h4>
                             <Image src={check(event.welfare && event.welfare != '')} width={48} />
+                        </Col>
+                        <Col className='checkboxes'>
+                            <h4>Banner</h4>
+                            <Image src={check(event.banner && event.banner != '')} width={48} />
                         </Col>
                     </Row>
                 </Container>
