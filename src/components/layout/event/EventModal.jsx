@@ -29,7 +29,6 @@ function EventModal({ event, handleClose, show }) {
     }
     const welfareIcons = (img) => {
         const images = img?.split(",").filter((img) => img.includes("http"));
-        console.log(images);
         return (
             <div className='svt-div'>
                 {images && images.map((image) => (
@@ -46,7 +45,6 @@ function EventModal({ event, handleClose, show }) {
             </Container>
         )
     }
-    console.log(event);
     function check(statement) {
         if (statement) {
             return green_cicle;
