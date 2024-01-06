@@ -40,6 +40,9 @@
     .checkboxes {
         flex: none !important;
     }
+    .resources-last-row {
+        width: 100% !important;
+    }
 }
 .center-modal {
     margin: auto;

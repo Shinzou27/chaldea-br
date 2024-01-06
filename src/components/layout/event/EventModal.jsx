@@ -151,7 +151,7 @@ function EventModal({ event, handleClose, show }) {
                                     {resource(qp, event.qp)}
                                 </Col>
                             </Row>
-                            <Row className='w-50 align-items-center'>
+                            <Row className='w-50 align-items-center resources-last-row'>
                                 <Col>
                                     {resource(bond_grail, event.bond_grail)}
                                 </Col>
