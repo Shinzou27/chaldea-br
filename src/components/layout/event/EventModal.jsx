@@ -33,14 +33,14 @@ function EventModal({ event, handleClose, show }) {
         return (
             <div className='svt-div'>
                 {images && images.map((image) => (
-                    <Image src={image} className='mx-1' width={64} />
+                    <Image src={image} className='m-1' width={64} />
                 ))}
             </div>
         )
     }
     const resource = (img, amount) => {
         return (
-            <Container className='d-flex justify-content-between my-2'>
+            <Container className='d-flex justify-content-between my-2 resource-col'>
                 <Image src={img} width={64} />
                 <p className='amount align-self-center'>{amount == undefined || amount == '' ? 0 : amount}</p>
             </Container>
