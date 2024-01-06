@@ -8,6 +8,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { v4 as uuid } from 'uuid'
 import './Roadmap.css';
+import EventFilter from '../layout/event/EventFilter';
 
 function Roadmap() {
     const [events, setEvents] = useState();
@@ -26,24 +27,28 @@ function Roadmap() {
         })
     }, []);
     const eventGrid = (year) => {
-        return <Row>
-        {events && events.filter((item) => item.year == year).map((item) => (
-            <Col key={uuid()} className='my-2' md={4}>
-                <EventCard event={item} handleModal={handleModal} />
-            </Col>
-        ))}
-    </Row>
+        return (
+            <Row>
+                {events && events.filter((item) => item.year == year).map((item) => (
+                    <Col key={uuid()} className='my-2' md={4}>
+                        <EventCard event={item} handleModal={handleModal} />
+                    </Col>
+                ))}
+            </Row>
+        )
     }
     return (
         <div className='my-3'>
             <div className='pt-5'>
-                <h1>Roadmap de eventos</h1>
+                <h1 className='py-1'>Roadmap de eventos</h1>
             </div>
             <Tabs justify>
                 <Tab eventKey="2022" title="2022">
+                    <h1>Eventos de 2022</h1>
                     {eventGrid("2022")}
                 </Tab>
                 <Tab eventKey="2023" title="2023">
+                    <h1>Eventos de 2023</h1>
                     {eventGrid("2023")}
                 </Tab>
             </Tabs>
