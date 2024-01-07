@@ -7,7 +7,7 @@ function ChapterDisplay({ chapters, handleModal }) {
     console.log(chapters);
     const ids = ["fuyuki","orleans", "septem", "okeanos", "london", "america", "camelot", "babylonia", "solomon", "shinjuku", "seraph", "agartha", "shimousa", "salem", "lostbelt-prologue", "anastasia", "gotterdammerung", "sin", "yugakshetra", "atlantis", "olympus", "heian-kyo", "avalon-le-fae", "tunguska", "traum", "nahui-mictlan", "sovereigns-memoir", "paper-moon", "all-the-statesmen", "ooku", "imaginary-scramble", "merry-christmas-in-the-underworld"];
     function getChapter(index) {
-        return `static/img/icons/${ids[index]}.png`
+        return `/static/img/icons/${ids[index]}.png`
     }
     return (
         <Container className='chapters-container p-5'>
