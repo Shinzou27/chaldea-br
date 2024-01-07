@@ -61,8 +61,7 @@ function Team() {
         setHighlightChapters(foundById.chaptersString.split('').map((item) => item == 'Y' ? true : false));
     }
     return (
-        <Container className='w-100' fluid>
-            <h1 className='pt-5 mt-2'>Nossa Equipe!</h1>
+        <Container className='w-100 pt-5 mt-5' fluid>
             <Container>
                 {(translatorsData) &&
                     <Row>
