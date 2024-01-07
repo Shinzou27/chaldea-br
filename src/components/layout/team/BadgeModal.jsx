@@ -6,7 +6,7 @@ function BadgeModal({ translator, chapter, isPresent, show, setShow }) {
                 <Modal.Title>Insígnia de {chapter}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <p>{translator} {isPresent ? '' : ' não '} participou da tradução de {chapter}!</p>
+                <p>{translator?.name} {isPresent ? '' : ' não '} participou da tradução de {chapter}!</p>
             </Modal.Body>
         </Modal>
     );

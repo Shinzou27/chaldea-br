@@ -10,11 +10,12 @@ import axios from 'axios';
 import { data as chapterInfo } from '../../assets/static_data.json'
 import './Team.css'
 
+
 function Team() {
     const [translatorsData, setTranslatorsData] = useState();
     const [highlightChapters, setHighlightChapters] = useState([]);
     const [highlightTranslator, setHighlightTranslator] = useState({});
-    const [testId, setTestId] = useState(0);
+    const [testId, setTestId] = useState();
     const [badgeChapter, setBadgeChapter] = useState("");
     const [showBadgeModal, setShowBadgeModal] = useState(false);
     const [isPresent, setIsPresent] = useState();
@@ -53,16 +54,16 @@ function Team() {
     }
     return (
         <Container className='w-100' fluid>
-            <h1 className='py-5 mt-3'>Nossa Equipe!</h1>
+            <h1 className='pt-5 mt-2'>Nossa Equipe!</h1>
             <Container>
                 {(translatorsData) &&
                     <Row>
-                        <BadgeModal translator={translatorsData.filter((translator) => translator.id == testId)[0].name} chapter={badgeChapter} isPresent={isPresent} show={showBadgeModal} setShow={setShowBadgeModal} />
+                        <BadgeModal translator={translatorsData.filter((translator) => translator.id == testId)[0]} chapter={badgeChapter} isPresent={isPresent} show={showBadgeModal} setShow={setShowBadgeModal} />
                         <Col md={4}>
                             <ChibiSelector data={translatorsData} highlight={translatorsData.filter((translator) => translator.id == testId)[0]} handleHighlight={(id) => setTestId(id)} />
                         </Col>
                         <Col md={8}>
-                            <ChapterDisplay chapters={translatorsData.filter((translator) => translator.id == testId)[0].chaptersString.split('').map((item) => item == 'Y' ? true : false)} handleModal={handleModal} />
+                            <ChapterDisplay chapters={translatorsData.filter((translator) => translator.id == testId)[0]?.chaptersString.split('').map((item) => item == 'Y' ? true : false)} handleModal={handleModal} />
                         </Col>
                     </Row>
                 }
