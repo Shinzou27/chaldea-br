@@ -34,7 +34,7 @@
     }
 }
 @media (max-width: 768px) {
-    .rate-up-row {
+    .rate-up-row, .general-info-row {
         display: block !important;
     }
     .checkboxes {

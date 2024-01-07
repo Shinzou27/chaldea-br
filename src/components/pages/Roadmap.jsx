@@ -51,6 +51,10 @@ function Roadmap() {
                     <h1>Eventos de 2023</h1>
                     {eventGrid("2023")}
                 </Tab>
+                <Tab eventKey="2024" title="2024">
+                    <h1>Eventos de 2024</h1>
+                    {eventGrid("2024")}
+                </Tab>
             </Tabs>
             <EventModal event={modalEvent} handleClose={handleClose} show={show} />
         </div>

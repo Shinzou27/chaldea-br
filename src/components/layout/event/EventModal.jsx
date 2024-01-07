@@ -37,10 +37,10 @@ function EventModal({ event, handleClose, show }) {
             </div>
         )
     }
-    const resource = (img, amount) => {
+    const resource = (img, amount, hoverTitle) => {
         return (
             <Container className='d-flex justify-content-between my-2 resource-col'>
-                <Image src={img} width={64} />
+                <Image title={hoverTitle} src={img} width={64} />
                 <p className='amount align-self-center'>{amount == undefined || amount == '' ? 0 : amount}</p>
             </Container>
         )
@@ -64,27 +64,45 @@ function EventModal({ event, handleClose, show }) {
                 <Container className='center-modal'>
                     <h2>{event.subtitle}</h2>
                     <Image src={event.img} fluid />
-                    <h4 className='mt-2'>Início: {event.date}</h4>
-                    {event.event_type != '' && <h4 className='mt-2'>Evento de {event.event_type}</h4>}
+                    <Row className='m-auto w-100 align-items-center general-info-row'>
+                        {event.date != '' &&
+                            <Col className='info-svt'>
+                                <h4>Início</h4>
+                                <h4 className='mt-2 fw-lighter'>{event.date}</h4>
+                            </Col>
+                        }
+                        {event.requirement != '' &&
+                            <Col className='info-svt'>
+                                <h4>Requer</h4>
+                                <h4 className='mt-2 fw-lighter'>{event.requirement}</h4>
+                            </Col>
+                        }
+                        {event.event_type != '' &&
+                            <Col className='info-svt'>
+                                <h4>Tipo de evento</h4>
+                                <h4 className='mt-2 fw-lighter'>{event.event_type}</h4>
+                            </Col>
+                        }
+                    </Row>
                 </Container>
                 <hr />
                 <Container className='center-modal'>
                     <h2>Características</h2>
                     <Row className='w-75 align-items-center'>
                         <Col className='checkboxes'>
-                            <h4>História</h4>
+                            <h4 className='mt-2 fw-normal'>História</h4>
                             <Image src={check(event.story == '1')} width={48} />
                         </Col>
                         <Col className='checkboxes'>
-                            <h4>Loja</h4>
+                            <h4 className='mt-2 fw-normal'>Loja</h4>
                             <Image src={check(event.shop == '1')} width={48} />
                         </Col>
                         <Col className='checkboxes'>
-                            <h4>Servo Grátis</h4>
+                            <h4 className='mt-2 fw-normal'>Servo Grátis</h4>
                             <Image src={check(event.welfare && event.welfare != '')} width={48} />
                         </Col>
                         <Col className='checkboxes'>
-                            <h4>Banner</h4>
+                            <h4 className='mt-2 fw-normal'>Banner</h4>
                             <Image src={check(event.banner && event.banner != '')} width={48} />
                         </Col>
                     </Row>
@@ -134,27 +152,27 @@ function EventModal({ event, handleClose, show }) {
                             <h2>Recursos</h2>
                             <Row className='w-100 align-items-center'>
                                 <Col>
-                                    {resource(rare_prism, event.rare_prism)}
-                                    {resource(mana_prism, event.mana_prism)}
-                                    {resource(pure_prism, event.pure_prism)}
+                                    {resource(rare_prism, event.rare_prism, 'Rare Prism')}
+                                    {resource(mana_prism, event.mana_prism, 'Mana Prism')}
+                                    {resource(pure_prism, event.pure_prism, 'Pure Prism')}
                                 </Col>
                                 <Col>
-                                    {resource(apple, event.golden_apple)}
-                                    {resource(lore, event.lore)}
-                                    {resource(golden_fou, event.golden_fou)}
+                                    {resource(apple, event.golden_apple, 'Maçã Dourada')}
+                                    {resource(lore, event.lore, 'Lore')}
+                                    {resource(golden_fou, event.golden_fou, 'Fou Dourado')}
                                 </Col>
                                 <Col>
-                                    {resource(sq, event.sq)}
-                                    {resource(ticket, event.ticket)}
-                                    {resource(qp, event.qp)}
+                                    {resource(sq, event.sq, 'SQ')}
+                                    {resource(ticket, event.ticket, 'Ticket')}
+                                    {resource(qp, event.qp, 'QP')}
                                 </Col>
                             </Row>
                             <Row className='w-50 align-items-center resources-last-row'>
                                 <Col>
-                                    {resource(bond_grail, event.bond_grail)}
+                                    {resource(bond_grail, event.bond_grail, 'Graal de Bond')}
                                 </Col>
                                 <Col>
-                                    {resource(holy_grail, event.holy_grail)}
+                                    {resource(holy_grail, event.holy_grail, 'Santo Graal')}
                                 </Col>
                             </Row>
                         </>
