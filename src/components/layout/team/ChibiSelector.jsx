@@ -9,11 +9,12 @@ function ChibiSelection({ data, highlight, handleHighlight }) {
         <Container className='chibi-container'>
             <Container className='main-chibi m-1'>
                 <Container className='my-3'>
-                    <h4>{highlight.name}</h4>
+                    <h1 className='fw-bold'>{highlight.name}</h1>
+                    <hr />
                 </Container>
                 <Image src={`/static/img/chibi/${highlight.id}.png`} width={256} fluid />
+                <hr />
             </Container>
-            <hr />
             <Container className='lesser-chibi-container'>
                 <Row>
                     {data.map((item, index) => (

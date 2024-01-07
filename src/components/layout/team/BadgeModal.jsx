@@ -1,6 +1,5 @@
 import Modal from 'react-bootstrap/Modal';
 function BadgeModal({ translator, chapter, isPresent, show, setShow }) {
-    console.log(translator, chapter);
     return (
         <Modal centered className='badge-modal' show={show} onHide={() => setShow(false)}>
             <Modal.Header closeButton>

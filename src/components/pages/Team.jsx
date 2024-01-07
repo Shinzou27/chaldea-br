@@ -19,7 +19,6 @@ function Team() {
     const [showBadgeModal, setShowBadgeModal] = useState(false);
     const [isPresent, setIsPresent] = useState();
     const chapters = chapterInfo;
-    console.log(Object.keys(chapters).toString());
     useEffect(() => {
         const config = {
             transformResponse: [function (data) {
