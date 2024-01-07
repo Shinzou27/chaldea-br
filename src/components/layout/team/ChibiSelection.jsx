@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container'
 import Image from "react-bootstrap/esm/Image";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import placeholder from '../../../assets/event_resources/golden_fou.png'
 
 function ChibiSelection({ data, highlight, handleHighlight }) {
 
