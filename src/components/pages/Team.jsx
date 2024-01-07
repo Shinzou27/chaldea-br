@@ -45,7 +45,6 @@ function Team() {
         axios.get('https://opensheet.elk.sh/11E0aTF0DIx3nzDX2Cj0EpbxKJf5alndmkRMbAma0bIk/team', config).then((response) => {
             let resp = response.data;
             resp = resp.sort((a, b) => a.name.localeCompare(b.name));
-            console.log(resp);
             setTranslatorsData(resp);
             setLesserChibis(resp);
         });
@@ -57,7 +56,6 @@ function Team() {
     }
     function handleHighlight(id) {
         const foundById = translatorsData.filter((translator) => translator.id == id)[0];
-        console.log(foundById.chaptersString);
         setHighlightTranslator(foundById);
         setLesserChibis(translatorsData.filter((translator) => translator.id != id));
         setHighlightChapters(foundById.chaptersString.split('').map((item) => item == 'Y' ? true : false));

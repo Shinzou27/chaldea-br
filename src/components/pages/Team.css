@@ -7,6 +7,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    background-image: url('../../assets/bg_summon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .chapters-container {
@@ -17,6 +21,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url('../../assets/bg_arc1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .lesser-chibi-container {
