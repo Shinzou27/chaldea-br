@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Image from "react-bootstrap/esm/Image";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import ChibiSelection from '../layout/team/chibiSelection';
+import ChibiSelection from '../layout/team/ChibiSelection';
 import ChapterDisplay from '../layout/team/ChapterDisplay';
 import BadgeModal from '../layout/team/BadgeModal';
 import { useEffect, useState } from 'react';
