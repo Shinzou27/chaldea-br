@@ -19,7 +19,9 @@
 .c-pointer {
     cursor: pointer;
 }
-
+.event-tab .nav-link {
+    color: #ffffff;
+}
 .event-modal {
     color: #222222;
     padding: 0 !important;

@@ -31,8 +31,8 @@ function EventModal({ event, handleClose, show }) {
         const images = img?.split(",").filter((img) => img.includes("http"));
         return (
             <div className='svt-div'>
-                {images && images.map((image) => (
-                    <Image src={image} className='m-1' width={64} />
+                {images && images.map((image, index) => (
+                    <Image key={index} src={image} className='m-1' width={64} />
                 ))}
             </div>
         )
@@ -113,7 +113,7 @@ function EventModal({ event, handleClose, show }) {
                         {event.detail && event.detail != '' && (
                             <Col className='info-svt'>
                                 <h2>Informações</h2>
-                                {event.detail.split('\\n').map(str => <p>{str}</p>)}
+                                {event.detail.split('\\n').map((str, index) => <p key={index}>{str}</p>)}
                             </Col>
                         )}
                         {event.welfare && event.welfare != '' && (

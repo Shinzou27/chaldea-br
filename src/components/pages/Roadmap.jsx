@@ -42,7 +42,7 @@ function Roadmap() {
             <div className='pt-5'>
                 <h1 className='py-1'>Roadmap de eventos</h1>
             </div>
-            <Tabs justify>
+            <Tabs className='event-tab' justify>
                 <Tab eventKey="2022" title="2022">
                     <h1>Eventos de 2022</h1>
                     {eventGrid("2022")}

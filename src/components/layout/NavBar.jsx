@@ -21,8 +21,8 @@ function NavBar() {
             <Nav.Link className='px-3' href="/">Início</Nav.Link>
             <Nav.Link className='px-3' href="/andamento">Andamento</Nav.Link>
             <Nav.Link href="https://shinzou27.github.io/glossarioChaldeaBR/" target='_blank'>Glossário</Nav.Link>
-            {/*<Nav.Link className='px-3' href="/roadmap">Eventos</Nav.Link>*/}
-            {/*<Nav.Link className='px-3' href="/equipe">Equipe</Nav.Link>*/}
+            <Nav.Link className='px-3' href="/roadmap">Eventos</Nav.Link>
+            <Nav.Link className='px-3' href="/equipe">Equipe</Nav.Link>
             <NavDropdown menuVariant='dark' className='text-bg-dark px-3' title="Capítulos" id="basic-nav-dropdown">
               <NavDropdown.Item href="/capitulo/1">Observer on Timeless Temple</NavDropdown.Item>
               <NavDropdown.Item href="/capitulo/eor">Epic of Remnant</NavDropdown.Item>
