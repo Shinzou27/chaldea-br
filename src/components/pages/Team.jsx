@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Image from "react-bootstrap/esm/Image";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import ChibiSelection from '../layout/team/ChibiSelection';
+import ChibiSelector from '../layout/team/ChibiSelector';
 import ChapterDisplay from '../layout/team/ChapterDisplay';
 import BadgeModal from '../layout/team/BadgeModal';
 import { useEffect, useState } from 'react';
@@ -60,7 +60,7 @@ function Team() {
                     <Row>
                         <BadgeModal translator={translatorsData.filter((translator) => translator.id == testId)[0].name} chapter={badgeChapter} isPresent={isPresent} show={showBadgeModal} setShow={setShowBadgeModal} />
                         <Col md={4}>
-                            <ChibiSelection data={translatorsData} highlight={translatorsData.filter((translator) => translator.id == testId)[0]} handleHighlight={(id) => setTestId(id)} />
+                            <ChibiSelector data={translatorsData} highlight={translatorsData.filter((translator) => translator.id == testId)[0]} handleHighlight={(id) => setTestId(id)} />
                         </Col>
                         <Col md={8}>
                             <ChapterDisplay chapters={translatorsData.filter((translator) => translator.id == testId)[0].chaptersString.split('').map((item) => item == 'Y' ? true : false)} handleModal={handleModal} />
