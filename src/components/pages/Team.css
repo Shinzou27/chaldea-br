@@ -3,6 +3,7 @@
     border-radius: 10px;
     height: 100%;
 }
+
 .chapters-container {
     height: 100%;
     border: 2px solid #008029;
@@ -12,6 +13,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .lesser-chibi-container {
     display: flex;
     flex-direction: row;
@@ -19,10 +21,13 @@
     overflow-y: scroll;
     height: 36vh;
 }
+
 .lesser-chibi-container img {
     cursor: pointer;
 }
-.part-false, .part-true {
+
+.part-false,
+.part-true {
     padding: 5px;
     border-radius: 15px;
     width: 64px !important;
@@ -31,15 +36,18 @@
     border: 1px solid white;
     cursor: pointer;
 }
+
 .part-false {
     background-color: #57575750;
     opacity: 0.4;
 }
+
 .part-true {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+        radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     opacity: 1;
 }
+
 .chapter-badge {
     width: 64px !important;
     height: 80px !important;
@@ -50,26 +58,36 @@
     justify-content: center;
     border-radius: 10px;
 }
+
 .badge-modal {
     color: #222222;
 }
+
 @media (min-width: 768px) {
     .chapters-container {
-        margin-left: 0.5rem!important;
+        margin-left: 0.5rem !important;
     }
+
     .chibi-container {
-        margin-right: 0.5rem!important;
+        margin-right: 0.5rem !important;
     }
 }
+
+@media (max-width: 767px) {
+    .chibi-container {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .chapters-container {
+        margin-top: 0.5rem !important;
+    }
+}
+
 @media (max-width: 320px) {
-    .part-true, .part-false {
+
+    .part-true,
+    .part-false {
         width: 42px !important;
         height: 42px !important;
-    }
-    .chibi-container {
-        margin-bottom: 0.5rem!important;
-    }
-    .chapters-container {
-        margin-top: 0.5rem!important;
     }
 }
