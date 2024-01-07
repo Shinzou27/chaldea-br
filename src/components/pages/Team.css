@@ -2,6 +2,11 @@
     border: 2px solid #008029;
     border-radius: 10px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .chapters-container {
@@ -19,7 +24,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-y: scroll;
-    height: 36vh;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 32vh;
 }
 
 .lesser-chibi-container img {
@@ -67,7 +75,7 @@
     .chapters-container {
         margin-left: 0.5rem !important;
     }
-
+    
     .chibi-container {
         margin-right: 0.5rem !important;
     }
@@ -77,9 +85,14 @@
     .chibi-container {
         margin-bottom: 0.5rem !important;
     }
-
+    
     .chapters-container {
         margin-top: 0.5rem !important;
+        
+    }
+    .chapter-badge {
+        margin-left: 0.18rem !important;
+        margin-right: 0.18rem !important;
     }
 }
 
@@ -89,5 +102,9 @@
     .part-false {
         width: 42px !important;
         height: 42px !important;
+    }
+    .chapter-badge {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 }

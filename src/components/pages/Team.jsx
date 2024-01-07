@@ -13,8 +13,9 @@ import './Team.css'
 
 function Team() {
     const [translatorsData, setTranslatorsData] = useState();
-    const [highlightChapters, setHighlightChapters] = useState([]);
-    const [highlightTranslator, setHighlightTranslator] = useState({});
+    const [highlightChapters, setHighlightChapters] = useState();
+    const [highlightTranslator, setHighlightTranslator] = useState();
+    const [lesserChibis, setLesserChibis] = useState();
     const [testId, setTestId] = useState();
     const [badgeChapter, setBadgeChapter] = useState("");
     const [showBadgeModal, setShowBadgeModal] = useState(false);
@@ -42,9 +43,11 @@ function Team() {
             }]
         }
         axios.get('https://opensheet.elk.sh/11E0aTF0DIx3nzDX2Cj0EpbxKJf5alndmkRMbAma0bIk/team', config).then((response) => {
-            setTranslatorsData(response.data);
-            //setHighlightTranslator();
-            setHighlightChapters(highlightTranslator.chaptersString); //.split('').map((item) => item == 'Y' ? true : false)
+            let resp = response.data;
+            resp = resp.sort((a, b) => a.name.localeCompare(b.name));
+            console.log(resp);
+            setTranslatorsData(resp);
+            setLesserChibis(resp);
         });
     }, [])
     function handleModal(id, isPresent) {
@@ -52,18 +55,25 @@ function Team() {
         setShowBadgeModal(true);
         setIsPresent(isPresent);
     }
+    function handleHighlight(id) {
+        const foundById = translatorsData.filter((translator) => translator.id == id)[0];
+        console.log(foundById.chaptersString);
+        setHighlightTranslator(foundById);
+        setLesserChibis(translatorsData.filter((translator) => translator.id != id));
+        setHighlightChapters(foundById.chaptersString.split('').map((item) => item == 'Y' ? true : false));
+    }
     return (
         <Container className='w-100' fluid>
             <h1 className='pt-5 mt-2'>Nossa Equipe!</h1>
             <Container>
                 {(translatorsData) &&
                     <Row>
-                        <BadgeModal translator={translatorsData.filter((translator) => translator.id == testId)[0]} chapter={badgeChapter} isPresent={isPresent} show={showBadgeModal} setShow={setShowBadgeModal} />
+                        <BadgeModal translator={highlightTranslator} chapter={badgeChapter} isPresent={isPresent} show={showBadgeModal} setShow={setShowBadgeModal} />
                         <Col md={4}>
-                            <ChibiSelector data={translatorsData} highlight={translatorsData.filter((translator) => translator.id == testId)[0]} handleHighlight={(id) => setTestId(id)} />
+                            <ChibiSelector data={lesserChibis} highlight={highlightTranslator} handleHighlight={handleHighlight} />
                         </Col>
                         <Col md={8}>
-                            <ChapterDisplay chapters={translatorsData.filter((translator) => translator.id == testId)[0]?.chaptersString.split('').map((item) => item == 'Y' ? true : false)} handleModal={handleModal} />
+                            <ChapterDisplay chapters={highlightChapters} handleModal={handleModal} />
                         </Col>
                     </Row>
                 }
